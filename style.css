@@ -1,0 +1,52 @@
+.bio {
+	align-content: center;
+  	align-items: center;
+	align-text: left;
+	margin: 0 auto;
+	width: 500px;
+}
+
+/*
+.teaching {
+	width: 600px;
+	align-content: left;
+  	align-items: center;
+	align-text: center;
+	margin: 0 auto;
+}
+*/
+
+.talks {
+	width: 625px;
+	align-content: left;
+  	align-items: center;
+	margin: 0 auto;
+}
+
+@media screen and (max-width:495px){
+	.bio {
+		text-align: center;
+		width: 75%;
+		margin: 0 auto;
+	}
+/*
+	.teaching {
+		width: 75%;
+		align-content: left;
+  		align-items: center;
+		align-text: center;
+		margin: 0 auto;
+	}
+*/
+	
+}
+
+@media screen and (max-width: 600px){
+.talks {
+	width: 70%;
+	align-content: left;
+  	align-items: center;
+	margin: 0 auto;
+}
+
+}
